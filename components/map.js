@@ -43,7 +43,12 @@ export default function Map({ pois = [] }) {
 
   return (
     <>
-      {!isLoaded && <p className="w-full text-center">Map loading...</p>}
+      {!isLoaded && (
+        <p className="w-full text-center">
+          Map loading...Please make sure that Google services are available at
+          your location.
+        </p>
+      )}
 
       {isLoaded && (
         <GoogleMap
