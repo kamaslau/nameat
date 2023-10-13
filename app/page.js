@@ -45,7 +45,7 @@ export default function Home() {
   return (
     <>
       <div
-        className="fixed left-6 top-6 z-50 bg-white border p-4 opacity-75 hover:opacity-90 w-1/3 max-h-3/5 overflow-y-scroll"
+        className="z-40 hover:z-100 opacity-75 hover:opacity-90 fixed left-6 top-6 bg-white border p-4 w-1/3 h-2/3 overflow-y-scroll"
         hidden={name.length === 0}
       >
         {facilities.map((item, index) => (
@@ -57,7 +57,7 @@ export default function Home() {
 
       <Form
         onUpdate={handleNameUpdate}
-        className="fixed bottom-16 left-6 opacity-75 hover:opacity-90"
+        className="z-50 hover:z-100 opacity-75 hover:opacity-100 fixed bottom-16 left-6"
       />
     </>
   );
