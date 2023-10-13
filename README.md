@@ -6,14 +6,20 @@ Propose a snack trip map with the name that user inputs which meets facility nam
 
 ## Getting Started
 
+Please make sure that Google Map services are available in your location.
+
 ### [Optional] Prerequisites
 
-To facilitate dev and build features, latest LTS version of [Node.js](https://nodejs.org/en/download/current) and [Rust-lang](https://www.rust-lang.org/tools/install) should be installed.
+To facilitate dev and build features, latest LTS version of [Node.js](https://nodejs.org/en/download/current) w/ [PNPM](https://pnpm.io/installation) and [Rust-lang](https://www.rust-lang.org/tools/install) should be installed.
 
-However, if you just want to try-out the idea, you could directly download macOS or Windows clients that supports latest OS versions.
+However, if you just want to try-out the idea, you could directly download desktop clients that supports latest OS versions:
+
+- [macOS (Apple Silicon)](https://public.liuyajie.com/releases/nameat_0.1.0_aarch64.dmg)
+- [Windows (x64)](https://public.liuyajie.com/releases/nameat_0.1.0_x64_en-US.msi)
 
 ```bash
 cp .env.sample .env.local # for demo purpose, keep sample .env file as is
+pnpm i
 
 # development/preview with hot-load
 pnpm tauri dev

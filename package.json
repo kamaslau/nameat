@@ -1,7 +1,10 @@
 {
   "name": "nameat",
   "version": "0.1.0",
-  "private": true,
+  "author": {
+    "name": "Lau, Kamas",
+    "email": "kamaslau@dingtalk.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
