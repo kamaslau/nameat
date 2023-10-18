@@ -1,13 +1,13 @@
 [package]
 name = "app"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Tauri App"
-authors = ["you"]
-license = ""
+authors = ["Lau, Kamas <kamaslau@dingtalk.com>"]
+license = "MIT"
 repository = ""
 default-run = "app"
 edition = "2021"
-rust-version = "1.60"
+rust-version = "1.73"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

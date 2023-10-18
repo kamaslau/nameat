@@ -1,11 +1,9 @@
 {
   "name": "nameat",
-  "version": "0.1.0",
-  "author": {
-    "name": "Lau, Kamas",
-    "email": "kamaslau@dingtalk.com"
-  },
+  "version": "0.1.1",
+  "author": "Lau, Kamas <kamaslau@dingtalk.com> (https://www.kamaslau.com/)",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
