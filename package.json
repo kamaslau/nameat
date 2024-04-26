@@ -2,6 +2,7 @@
   "name": "nameat",
   "version": "0.1.1",
   "author": "Lau, Kamas <kamaslau@dingtalk.com> (https://www.kamaslau.com/)",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
@@ -10,16 +11,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-google-maps/api": "^2.19.2",
-    "next": "^14.0.1",
+    "@react-google-maps/api": "^2.19.3",
+    "next": "^14.2.3",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1.5.6",
+    "@tauri-apps/cli": "^1.5.12",
     "autoprefixer": "^10",
     "eslint": "^8",
-    "eslint-config-next": "14.0.1",
+    "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "tailwindcss": "^3"
   }
